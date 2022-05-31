@@ -251,7 +251,7 @@ export const ExploreBTN = styled.button`
   font-size: 1rem;
   border-radius: 40px;
   border: none;
-  background: linear-gradient(86.57deg, #D8AE43 6.92%, rgba(255, 92, 0, 0.79) 100.73%);
+  background: linear-gradient(86.57deg, #33FFFD 6.92%, #00212 100.73%);
   padding: 10px;
   letter-spacing: 2px;
   font-weight: bold;
