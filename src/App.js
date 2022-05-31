@@ -654,7 +654,7 @@ function App() {
           </s.TextP>
           <br></br>
             <br></br>
-          <img src="/config/images/2.gif" />
+          <img src="https://mint.otherdeed.tk/config/images/26.png" />
         </s.SecContainer>
 
         <s.SecContainer id="sneak">
