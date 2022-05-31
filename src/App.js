@@ -421,6 +421,8 @@ function App() {
         <s.SpacerLarge />
 
         <s.Container flex={1} jc={"center"} ai={"center"}>
+        <br></br>
+        <br></br>
           <s.TextTitle>Mint Your {CONFIG.NFT_NAME}</s.TextTitle>
         </s.Container>
 
