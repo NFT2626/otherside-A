@@ -289,8 +289,6 @@ function App() {
     MAX_PER_TX: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
-    Telegram: "",
-    Discord: "",
     Twitter: "",
     SHOW_BACKGROUND: false,
   });
@@ -402,14 +400,8 @@ function App() {
 
           <s.HeaderDiv>
             <s.socialDiv>
-              <a href={CONFIG.Telegram} target={"_blank"}>
-                <s.Icons src="/config/images/telegram.svg" alt="telegram" />
-              </a>
               <a href={CONFIG.Twitter} target={"_blank"}>
                 <s.Icons src="/config/images/twitter.svg" alt="twitter" />
-              </a>
-              <a href={CONFIG.Discord} target={"_blank"}>
-                <s.Icons src="/config/images/discord.svg" alt="discord" />
               </a>
               <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
                 <s.Icons src="/config/images/opensea.svg" alt="opensea" />
@@ -725,14 +717,8 @@ function App() {
 
         <s.SecContainer id="">
           <s.socialDiv>
-            <a href={CONFIG.Telegram} target={"_blank"}>
-              <s.Icons src="/config/images/telegram.svg" alt="telegram" />
-            </a>
             <a href={CONFIG.Twitter} target={"_blank"}>
               <s.Icons src="/config/images/twitter.svg" alt="twitter" />
-            </a>
-            <a href={CONFIG.Discord} target={"_blank"}>
-              <s.Icons src="/config/images/discord.svg" alt="discord" />
             </a>
             <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
               <s.Icons src="/config/images/opensea.svg" alt="opensea" />
