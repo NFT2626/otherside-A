@@ -650,6 +650,9 @@ function App() {
             <br></br>
             NFT2626
           </s.TextP>
+          <br></br>
+            <br></br>
+          <img src="/config/images/2.gif" />
         </s.SecContainer>
 
         <s.SecContainer id="sneak">
