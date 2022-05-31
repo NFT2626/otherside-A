@@ -384,83 +384,76 @@ function App() {
       <s.Container
         flex={1}
         // ai={"center"}
-        style={{backgroundColor: "var(--primary)" }}
+        style={{ backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <ResponsiveWrapperHeader>
-
           <LogoDiv>
-          <a href="#" target={"_blank"}>
-            <StyledLogo alt={"logo"} src={"/config/images/1500x500iu.jpg"} />
-          </a>
+            <a href="#" target={"_blank"}>
+              <StyledLogo alt={"logo"} src={"/config/images/1500x500iu.jpg"} />
+            </a>
           </LogoDiv>
 
           <s.Headerlinks>
-            <s.StyledLink href="#story">
-              Story
-            </s.StyledLink >
-            <s.StyledLink href="#sneak">
-               Sneak Peaks
-              </s.StyledLink>
-              <s.StyledLink href="#faq">
-               FAQ
-              </s.StyledLink>
+            <s.StyledLink href="#story">Story</s.StyledLink>
+            <s.StyledLink href="#sneak">Sneak Peaks</s.StyledLink>
+            <s.StyledLink href="#faq">FAQ</s.StyledLink>
           </s.Headerlinks>
 
-
-
           <s.HeaderDiv>
-          <s.socialDiv>
-          <a href={CONFIG.Telegram} target={"_blank"}>
-          <s.Icons src="/config/images/telegram.svg" alt="telegram" />
-          </a>
-            <a href={CONFIG.Twitter} target={"_blank"}>
-          <s.Icons src="/config/images/twitter.svg" alt="twitter" />
-          </a>
-          <a href={CONFIG.Discord} target={"_blank"}>
-          <s.Icons src="/config/images/discord.svg" alt="discord" />
-          </a>
-          <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-          <s.Icons src="/config/images/opensea.svg" alt="opensea" />
-          </a>
-          </s.socialDiv>
-          <WalletBox>
-            {blockchain.account !== "" ? (
-            <>
-            <s.TextSubTitle style={{fontSize: "1rem", color: "white"}}>
-            <Badge color={DOT}/> {walletAddress}
-              </s.TextSubTitle>
-            </>
-            ) : null }
-          </WalletBox>
+            <s.socialDiv>
+              <a href={CONFIG.Telegram} target={"_blank"}>
+                <s.Icons src="/config/images/telegram.svg" alt="telegram" />
+              </a>
+              <a href={CONFIG.Twitter} target={"_blank"}>
+                <s.Icons src="/config/images/twitter.svg" alt="twitter" />
+              </a>
+              <a href={CONFIG.Discord} target={"_blank"}>
+                <s.Icons src="/config/images/discord.svg" alt="discord" />
+              </a>
+              <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
+                <s.Icons src="/config/images/opensea.svg" alt="opensea" />
+              </a>
+            </s.socialDiv>
+            <WalletBox>
+              {blockchain.account !== "" ? (
+                <>
+                  <s.TextSubTitle style={{ fontSize: "1rem", color: "white" }}>
+                    <Badge color={DOT} /> {walletAddress}
+                  </s.TextSubTitle>
+                </>
+              ) : null}
+            </WalletBox>
           </s.HeaderDiv>
-
         </ResponsiveWrapperHeader>
-        <s.SpacerLarge/>
+        <s.SpacerLarge />
 
         <s.Container flex={1} jc={"center"} ai={"center"}>
-          <s.TextTitle>
-            Mint Your {CONFIG.NFT_NAME}
-          </s.TextTitle>
-
+          <s.TextTitle>Mint Your {CONFIG.NFT_NAME}</s.TextTitle>
         </s.Container>
-    
+
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-        <StyledImg src={"/config/images/11.png"} alt="image" />
-        <s.SpacerSmall/>
-            <s.Container flex={1} jc={"center"} ai={"center"} >
-
-
-           {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
+          <StyledImg src={"/config/images/11.png"} alt="image" />
+          <s.SpacerSmall />
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextSub
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "coder" }}
+                  style={{
+                    textAlign: "center",
+                    color: "var(--accent-text)",
+                    fontFamily: "coder",
+                  }}
                 >
                   The sale has ended.
                 </s.TextSub>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "coder" }}
+                  style={{
+                    textAlign: "center",
+                    color: "var(--accent-text)",
+                    fontFamily: "coder",
+                  }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -472,53 +465,70 @@ function App() {
             ) : (
               <>
                 <s.TextSub
-                  style={{ textAlign: "center", color: "var(--accent-text)", fontFamily: "coder"  }}
+                  style={{
+                    textAlign: "center",
+                    color: "var(--accent-text)",
+                    fontFamily: "coder",
+                  }}
                 >
                   {data.totalSupply} | {CONFIG.MAX_SUPPLY}
                 </s.TextSub>
                 <s.SpacerSmall />
-                <s.TextTotal style={{background: "white" , borderRadius: 5, padding: 8, color: "black"}}>
-                      Price&emsp;&emsp;&emsp;&emsp;&emsp;{CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL}
-                    </s.TextTotal>
-                <s.SpacerMedium/>
+                <s.TextTotal
+                  style={{
+                    background: "white",
+                    borderRadius: 5,
+                    padding: 8,
+                    color: "black",
+                  }}
+                >
+                  Price&emsp;&emsp;&emsp;&emsp;&emsp;{CONFIG.DISPLAY_COST}{" "}
+                  {CONFIG.NETWORK.SYMBOL}
+                </s.TextTotal>
+                <s.SpacerMedium />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <>
-                  <s.Container ai={"center"} jc={"center"}>
-                    <s.SpacerSmall />
-                    <CTNButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT Wallet
-                      <img style={{width: 30, paddingLeft: 10 }} src={"/config/images/mm.svg"} />
-                    </CTNButton>
-                    {blockchain.errorMsg !== "" ? (
-                      <>
-                        <s.SpacerSmall />
-                        <s.TextDescription
-                          style={{
-                            textAlign: "center",
-                            color: "var(--accent-text)",
-                            fontFamily: "coder",
-                            fontSize: 20
-                          }}
-                        >
-                          {blockchain.errorMsg}
-                        </s.TextDescription>
-                      </>
-                    ) : null}
-                  </s.Container>
+                    <s.Container ai={"center"} jc={"center"}>
+                      <s.SpacerSmall />
+                      <CTNButton
+                        onClick={(e) => {
+                          e.preventDefault();
+                          dispatch(connect());
+                          getData();
+                        }}
+                      >
+                        CONNECT Wallet
+                        <img
+                          style={{ width: 30, paddingLeft: 10 }}
+                          src={"/config/images/mm.svg"}
+                        />
+                      </CTNButton>
+                      {blockchain.errorMsg !== "" ? (
+                        <>
+                          <s.SpacerSmall />
+                          <s.TextDescription
+                            style={{
+                              textAlign: "center",
+                              color: "var(--accent-text)",
+                              fontFamily: "coder",
+                              fontSize: 20,
+                            }}
+                          >
+                            {blockchain.errorMsg}
+                          </s.TextDescription>
+                        </>
+                      ) : null}
+                    </s.Container>
                   </>
                 ) : (
                   <>
-                    <s.AmountContainer style={{
-                      border: brd,
-                      boxShadow: bxsh,
-                    }}>
+                    <s.AmountContainer
+                      style={{
+                        border: brd,
+                        boxShadow: bxsh,
+                      }}
+                    >
                       <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
                         disabled={claimingNft ? 1 : 0}
@@ -545,146 +555,161 @@ function App() {
                     </s.AmountContainer>
                     <s.SpacerSmall />
                     <Maxbtn
-                        onClick={(e) => {
-                          e.preventDefault();
-                          settokens(CONFIG.MAX_PER_TX);
-                        }}
-                        >
+                      onClick={(e) => {
+                        e.preventDefault();
+                        settokens(CONFIG.MAX_PER_TX);
+                      }}
+                    >
                       SetMax
                     </Maxbtn>
                     <s.SpacerSmall />
                     <s.SpacerSmall />
-                    <s.TextTotal style={{color: "black"}}>
-                      Total&emsp;&emsp;&emsp;&emsp;&emsp;{(CONFIG.DISPLAY_COST * tokens).toString().substring(0, 6)}{" "}{CONFIG.NETWORK.SYMBOL}
+                    <s.TextTotal style={{ color: "black" }}>
+                      Total&emsp;&emsp;&emsp;&emsp;&emsp;
+                      {(CONFIG.DISPLAY_COST * tokens)
+                        .toString()
+                        .substring(0, 6)}{" "}
+                      {CONFIG.NETWORK.SYMBOL}
                     </s.TextTotal>
                     <s.SpacerSmall />
                     <s.SpacerXSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"column"}>
-                            <StyledButton
-                            disabled={claimingNft ? 1 : 0}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              claimNFTs();
-                              getData();
-                            }}
-                          >
-                            {claimingNft ? <Loader speed="fast" content="Minting..." /> : "MINT"} 
-                          </StyledButton>
+                      <StyledButton
+                        disabled={claimingNft ? 1 : 0}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          claimNFTs();
+                          getData();
+                        }}
+                      >
+                        {claimingNft ? (
+                          <Loader speed="fast" content="Minting..." />
+                        ) : (
+                          "MINT"
+                        )}
+                      </StyledButton>
                     </s.Container>
-                    <s.SpacerXSmall/>
-                    <s.TextSubTitle style={{fontSize: 15}}>
-                    Max {CONFIG.MAX_PER_TX} Per Tx
+                    <s.SpacerXSmall />
+                    <s.TextSubTitle style={{ fontSize: 15 }}>
+                      Max {CONFIG.MAX_PER_TX} Per Tx
                     </s.TextSubTitle>
-                    <s.SpacerXSmall/>
-                    <s.TextSubTitle style={{textAlign: "center", fontSize: "1rem"}}>
-                    {feedback}
+                    <s.SpacerXSmall />
+                    <s.TextSubTitle
+                      style={{ textAlign: "center", fontSize: "1rem" }}
+                    >
+                      {feedback}
                     </s.TextSubTitle>
+                  </>
+                )}
               </>
             )}
-            </>
-            )}
             <s.SpacerMedium />
-            </s.Container>
+          </s.Container>
           <s.SpacerLarge />
         </ResponsiveWrapper>
 
-
         <s.SpacerLarge />
         <s.SecContainer id="story">
-        <s.TextTitle>
-            STORY
-            </s.TextTitle>
-            <s.SpacerLarge/>
-            <s.TextP>
-
-lorem ipsum
-<br></br><br></br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<br></br><br></br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
-</s.TextP>
-            </s.SecContainer>
-
-            <s.SecContainer id="sneak">
-            <s.TextTitle>
-            Sneak Peaks
-            </s.TextTitle>
-            <s.SpacerLarge/>
-            <s.CBOX>
-            <Carousel autoplay className="custom-slider">
-    <img src="/config/images/1.png" />
-    <img src="/config/images/2.png" />
-    <img src="/config/images/3.png" />
-    <img src="/config/images/4.png" />
-    <img src="/config/images/5.png" />
-  </Carousel>
-  </s.CBOX>
-              </s.SecContainer>
-
-              <s.SecContainer id="faq">
-            <s.TextTitle>
-            FAQ
-            </s.TextTitle>
-            <s.SpacerLarge/>
-            <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
-    <Panel header="what is an nft?" defaultExpanded>
-    <s.TextP style={{textAlign: "left"}}>
-          lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="how can i mint">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-  </PanelGroup>
-            </s.SecContainer>
-
-
-
-            <s.SecContainer id="">
-                <s.socialDiv>
-          <a href={CONFIG.Telegram} target={"_blank"}>
-          <s.Icons src="/config/images/telegram.svg" alt="telegram" />
-          </a>
-            <a href={CONFIG.Twitter} target={"_blank"}>
-          <s.Icons src="/config/images/twitter.svg" alt="twitter" />
-          </a>
-          <a href={CONFIG.Discord} target={"_blank"}>
-          <s.Icons src="/config/images/discord.svg" alt="discord" />
-          </a>
-          <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-          <s.Icons src="/config/images/opensea.svg" alt="opensea" />
-          </a>
-          </s.socialDiv>
-          <s.SpacerLarge/>
+          <s.TextTitle>STORY</s.TextTitle>
+          <s.SpacerLarge />
           <s.TextP>
-          Copyright © 2022 {CONFIG.NFT_NAME}
+            lorem ipsum
+            <br></br>
+            <br></br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+            <br></br>
+            <br></br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </s.TextP>
-            </s.SecContainer>
+        </s.SecContainer>
 
+        <s.SecContainer id="sneak">
+          <s.TextTitle>Sneak Peaks</s.TextTitle>
+          <s.SpacerLarge />
+          <s.CBOX>
+            <Carousel autoplay className="custom-slider">
+              <img src="/config/images/1.png" />
+              <img src="/config/images/2.png" />
+              <img src="/config/images/3.png" />
+              <img src="/config/images/4.png" />
+              <img src="/config/images/5.png" />
+            </Carousel>
+          </s.CBOX>
+        </s.SecContainer>
 
+        <s.SecContainer id="faq">
+          <s.TextTitle>FAQ</s.TextTitle>
+          <s.SpacerLarge />
+          <PanelGroup
+            style={{ width: "80%", borderColor: "#A9D0D2" }}
+            accordion
+            bordered
+          >
+            <Panel header="What is a Otherdeed ?" defaultExpanded>
+              <s.TextP style={{ textAlign: "left" }}>
+                Satirical Conceptual Narrative Art Appropriation by @nft2626
+                where images are recontextualized – illuminating truths about
+                their origins and meanings
+              </s.TextP>
+            </Panel>
+            <Panel header="how can i mint">
+              <s.TextP style={{ textAlign: "left" }}>
+                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+              </s.TextP>
+            </Panel>
+            <Panel header="what is hashlips">
+              <s.TextP style={{ textAlign: "left" }}>
+                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+              </s.TextP>
+            </Panel>
+            <Panel header="what is hashlips">
+              <s.TextP style={{ textAlign: "left" }}>
+                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+              </s.TextP>
+            </Panel>
+            <Panel header="what is hashlips">
+              <s.TextP style={{ textAlign: "left" }}>
+                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+              </s.TextP>
+            </Panel>
+            <Panel header="what is hashlips">
+              <s.TextP style={{ textAlign: "left" }}>
+                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+              </s.TextP>
+            </Panel>
+          </PanelGroup>
+        </s.SecContainer>
 
+        <s.SecContainer id="">
+          <s.socialDiv>
+            <a href={CONFIG.Telegram} target={"_blank"}>
+              <s.Icons src="/config/images/telegram.svg" alt="telegram" />
+            </a>
+            <a href={CONFIG.Twitter} target={"_blank"}>
+              <s.Icons src="/config/images/twitter.svg" alt="twitter" />
+            </a>
+            <a href={CONFIG.Discord} target={"_blank"}>
+              <s.Icons src="/config/images/discord.svg" alt="discord" />
+            </a>
+            <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
+              <s.Icons src="/config/images/opensea.svg" alt="opensea" />
+            </a>
+          </s.socialDiv>
+          <s.SpacerLarge />
+          <s.TextP>Copyright © 2022 {CONFIG.NFT_NAME}</s.TextP>
+        </s.SecContainer>
 
         <s.SpacerMedium />
       </s.Container>
