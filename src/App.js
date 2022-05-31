@@ -230,7 +230,7 @@ export const WalletBox = styled.div`
   background-color: transparent;
   //padding: 10px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   width: 180px;
   height: 50px;
   display: flex;
