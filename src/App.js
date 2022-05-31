@@ -605,6 +605,7 @@ function App() {
         <s.SpacerLarge />
         <s.SecContainer id="story">
           <s.TextTitle>Bored Ape Yacht Club</s.TextTitle>
+          <s.TextTitle>Yuga Labs</s.TextTitle>
           <s.SpacerLarge />
           <s.TextP>
           Satirical Collections History
