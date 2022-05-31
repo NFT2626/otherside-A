@@ -661,32 +661,38 @@ function App() {
               <s.TextP style={{ textAlign: "left" }}>
                 Satirical Conceptual Narrative Art Appropriation by @nft2626
                 where images are recontextualized – illuminating truths about
-                their origins and meanings
+                their origins and meanings. Following the path made Ryder Ripps
+                with his work on RRBAYC Collection and other Web3 pionner like
+                Pauly.
               </s.TextP>
             </Panel>
             <Panel header="how can i mint">
               <s.TextP style={{ textAlign: "left" }}>
-                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+                Connect with metamask to Ethereum Mainnet and proceed
               </s.TextP>
             </Panel>
-            <Panel header="what is hashlips">
+            <Panel header="Are the original devs involved?">
               <s.TextP style={{ textAlign: "left" }}>
-                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+                No, @NFT2626 is the only Artist/Dev behind the Conceptual Art.
               </s.TextP>
             </Panel>
-            <Panel header="what is hashlips">
+            <Panel header="Where are the original images stored?">
               <s.TextP style={{ textAlign: "left" }}>
-                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+                All images and metadata of Skulls in Love are securely stored on
+                IPFS.
               </s.TextP>
             </Panel>
-            <Panel header="what is hashlips">
+            <Panel header="What the future of this project?">
               <s.TextP style={{ textAlign: "left" }}>
-                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+                There is no Rodmap its an Artistic Performance to denounce
+                Racism and Antisemitism hiding behind NFTs Collections
               </s.TextP>
             </Panel>
-            <Panel header="what is hashlips">
+            <Panel header="Who runs the Otherdeed ?">
               <s.TextP style={{ textAlign: "left" }}>
-                lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+                Otherdeed is a fully decentralized community with no leader.
+                Anyone is free to contribute. No approval is needed. We run
+                autonomously.
               </s.TextP>
             </Panel>
           </PanelGroup>
