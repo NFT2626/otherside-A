@@ -9,7 +9,7 @@
   "NFT_NAME": "Otherdeed",
   "SYMBOL": "OTHR",
   "MAX_SUPPLY": 100000,
-  "DISPLAY_COST": 0.026,
+  "DISPLAY_COST": 0.5,
   "GAS_LIMIT": 145000,
   "MAX_PER_TX": 50,
   "MARKETPLACE": "Opeansea",
