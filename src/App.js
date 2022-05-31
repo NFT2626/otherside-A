@@ -678,7 +678,7 @@ function App() {
               <s.TextP style={{ textAlign: "left" }}>
                 Satirical Conceptual Narrative Art Appropriation by @nft2626
                 where images are recontextualized – illuminating truths about
-                their origins and meanings. Following the path made Ryder Ripps
+                their origins and meanings. Following the path made by Ryder Ripps
                 with his work on RRBAYC Collection and other Web3 pionner like
                 Pauly.
               </s.TextP>
