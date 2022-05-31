@@ -697,7 +697,7 @@ function App() {
             </Panel>
             <Panel header="Where are the original images stored?">
               <s.TextP style={{ textAlign: "left" }}>
-                All images and metadata of Skulls in Love are securely stored on
+                All images and metadata are securely stored on
                 IPFS.
               </s.TextP>
             </Panel>
