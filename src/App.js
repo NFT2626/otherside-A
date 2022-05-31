@@ -610,28 +610,53 @@ function App() {
 
         <s.SpacerLarge />
         <s.SecContainer id="story">
-          <s.TextTitle>STORY</s.TextTitle>
+          <s.TextTitle>Bored Ape Yacht Club</s.TextTitle>
           <s.SpacerLarge />
           <s.TextP>
-            lorem ipsum
+          Satirical Collections History
             <br></br>
             <br></br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            All Started with Ryder Ripps recent NFT work has been centered
+            around provocations and inquiries regarding the nature of NFT,
+            provenance and digital ownership. Provenance has always been the
+            definitive aspect in establishing an artwork’s meaning and value.
+            The technology of NFTs is widely misunderstood, but in its greatest
+            form, it enables an immutable trace of origin in time to the
+            publisher/creator of a digital work.
             <br></br>
             <br></br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Since December of 2021, RR have been investigating the most
+            prominent NFT project, Bored Ape Yacht Club and its creators, Yuga
+            Labs. Through months of intensive research, RR and other community
+            members have discovered extensive connections between BAYC and
+            subversive internet nazi troll culture. You can read the findings at
+            http://GordonGoner.com made by Ryder Ripps, warning this website
+            contains sensitive content not suitable for children.
+            <br></br>
+            <br></br>
+            On Wednesday, May 13th 2022, Ryder Ripps began creating new work in
+            the form of NFTs, based on the BAYC images. Through the process of
+            “re-minting”, the original BAYC images are recontextualized –
+            illuminating truths about their origins and meanings as well as the
+            nature of Web3 – the power of NFTs to change meaning, establish
+            provenance and evade censorship.
+            <br></br>
+            <br></br>
+            On April 2022, NFT2626 began Minting Otherside NFTS renamed
+            Otherdeed as Contemporary Conceptual Narrative Artwork. OtherDeed
+            just like RR/BAYC uses satire and appropriation to protest and
+            educate people regarding Otherdeed for Otherside and the framework
+            of NFTs. The work is an extension of and in the spirit of other
+            artists who have worked within the field of appropriation art.
+            <br></br>
+            <br></br>
+            OtherDeed uses the ERC721A standard, which saves significant gas
+            fees for minting. you can mint multiple NFTs at about the same cost
+            as minting a single NFT. Thanks to the Azuki team who leaders have
+            been exposed by the web3 pioneer @Pauly0x.
+            <br></br>
+            <br></br>
+            NFT2626
           </s.TextP>
         </s.SecContainer>
 
