@@ -74,8 +74,8 @@ to edit story and faq q/a edit `src/App.js` <br>
 to change Carousel Images for SneakPeak Replace images in `public/config/images`  <br>
 ```json
 {
-  "CONTRACT_ADDRESS": "0x62078f64B75F25B986eC53966f59485C2F9844D1", 
-  "SCAN_LINK": "https://etherscan.io/address/0x62078f64B75F25B986eC53966f59485C2F9844D1",
+  "CONTRACT_ADDRESS": "0x6183f66B14f2FCFd801501d0565F0cB6C7561157", 
+  "SCAN_LINK": "https://polygonscan.io/address/0x6183f66B14f2FCFd801501d0565F0cB6C7561157",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "ETH",
