@@ -387,7 +387,7 @@ function App() {
       >
         <ResponsiveWrapperHeader>
           <LogoDiv>
-            <a href="#" target={"_blank"}>
+            <a href="https://otherdeed.tk/" target={"home"}>
               <StyledLogo alt={"logo"} src={"/config/images/1500x500iu.jpg"} />
             </a>
           </LogoDiv>
