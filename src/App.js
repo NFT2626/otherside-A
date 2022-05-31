@@ -622,7 +622,7 @@ function App() {
             Labs. Through months of intensive research, RR and other community
             members have discovered extensive connections between BAYC and
             subversive internet nazi troll culture. You can read the findings at
-            http://GordonGoner.com made by Ryder Ripps, warning this website
+            <a href="https://GordonGoner.com">GordonGoner.com</a> made by Ryder Ripps, warning this website
             contains sensitive content not suitable for children.
             <br></br>
             <br></br>
