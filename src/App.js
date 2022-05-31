@@ -391,7 +391,7 @@ function App() {
 
           <LogoDiv>
           <a href="#" target={"_blank"}>
-            <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+            <StyledLogo alt={"logo"} src={"/config/images/1500x500iu.jpg"} />
           </a>
           </LogoDiv>
 
