@@ -426,7 +426,7 @@ function App() {
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <StyledImg src={"/config/images/11.png"} alt="image" />
+          <StyledImg src={"/config/images/11.gif"} alt="image" />
           <s.SpacerSmall />
           <s.Container flex={1} jc={"center"} ai={"center"}>
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
