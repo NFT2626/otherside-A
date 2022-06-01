@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 100000,
   "DISPLAY_COST": 0.026,
   "GAS_LIMIT": 147800,
-  "MAX_PER_TX": 50,
+  "MAX_PER_TX": 20,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/",
   "Twitter": "https://twitter.com/otherside2626",
