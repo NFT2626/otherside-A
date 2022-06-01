@@ -259,7 +259,7 @@ function App() {
   const [placement, setPlacement] = React.useState('topStart');
   const errmessage = (
     <Notification type={'error'} header={'error'} closable>
-     Sorry, something went wrong please try again later.
+    Network is busy Please put higher gas limit to proceed mint.
     </Notification>
   );
   const txmessage = (
@@ -315,7 +315,7 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Network is busy Please put higher gas limit to proceed mint.");
         setClaimingNft(false);
         toaster.push(errmessage, { placement })
         setbrd("2px solid red");

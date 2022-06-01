@@ -177,7 +177,7 @@ function Second() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Network is busy Please put higher gas limit to proceed mint.");
         setClaimingNft(false);
       })
       .then((receipt) => {
