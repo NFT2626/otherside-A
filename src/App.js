@@ -290,6 +290,7 @@ function App() {
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     Twitter: "",
+    Etherscan: "",
     SHOW_BACKGROUND: false,
   });
 
@@ -405,6 +406,9 @@ function App() {
               </a>
               <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
                 <s.Icons src="/config/images/looksrare.svg" alt="looksrare" />
+              </a>
+              <a href={CONFIG.Etherscan} target={"_blank"}>
+                <s.Icons src="/config/images/Etherscan.svg" alt="Etherscan" />
               </a>
             </s.socialDiv>
             <WalletBox>
@@ -731,6 +735,9 @@ function App() {
             </a>
             <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
               <s.Icons src="/config/images/looksrare.svg" alt="looksrare" />
+            </a>
+            <a href={CONFIG.Etherscan} target={"_blank"}>
+              <s.Icons src="/config/images/Etherscan.svg" alt="Etherscan" />
             </a>
           </s.socialDiv>
           <s.SpacerLarge />
