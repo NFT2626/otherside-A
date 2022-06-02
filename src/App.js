@@ -637,7 +637,7 @@ function App() {
             provenance and evade censorship.
             <br></br>
             <br></br>
-            On April 2022, NFT2626 began Minting Otherdeed for Otherside NFTS as Contemporary Conceptual Narrative Artwork. OtherDeed
+            On June 2022, NFT2626 began Minting Otherdeed for Otherside NFTS as Contemporary Conceptual Narrative Artwork. OtherDeed
             just like RR/BAYC uses satire and appropriation to protest and
             educate people regarding Otherdeed for Otherside and the framework
             of NFTs. The work is an extension of and in the spirit of other
