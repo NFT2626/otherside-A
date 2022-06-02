@@ -654,7 +654,7 @@ function App() {
             been exposed by the web3 pioneer <a href="https://twitter.com/Pauly0x">Pauly</a>.
             <br></br>
             <br></br>
-				    June 2 2022 <a href="https://twitter.com/otherdeed26">Otherdeed</a> 26 is de-listed from Opensea
+				    June 2 2022 <a href="https://twitter.com/otherside2626">Otherdeed</a> 26 is de-listed from Opensea
             <br></br>
             <br></br>
             <a href="https://twitter.com/NFT2626">NFT2626</a>
