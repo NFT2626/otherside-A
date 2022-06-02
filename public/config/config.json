@@ -1,19 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0x64277dA428EE3Ad76BDE567aA90909aCa5427833",
-  "SCAN_LINK": "https://polygonscan.io/address/0x64277dA428EE3Ad76BDE567aA90909aCa5427833",
+  "CONTRACT_ADDRESS": "0x37Bea773D6b03BB03Fe967EaEbe2a0Bf42D3fA1C",
+  "SCAN_LINK": "https://etherscan.io/address/0x37bea773d6b03bb03fe967eaebe2a0bf42d3fa1c",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "MATIC",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "eth",
+    "ID": 1
   },
-  "NFT_NAME": "Otherdeed",
-  "SYMBOL": "OTHR",
+  "NFT_NAME": "Otherdeed 26",
+  "SYMBOL": "OTHR26",
   "MAX_SUPPLY": 100000,
   "DISPLAY_COST": 0.026,
   "GAS_LIMIT": 145000,
-  "MAX_PER_TX": 20,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "MAX_PER_TX": 50,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/otherdeed-26",
   "Twitter": "https://twitter.com/otherside2626",
   "SHOW_BACKGROUND": false
 }
