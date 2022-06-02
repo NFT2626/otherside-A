@@ -615,7 +615,7 @@ function App() {
           Satirical Collections History
             <br></br>
             <br></br>
-            All Started with Ryder Ripps recent NFT work has been centered
+            All Started with <a href="https://twitter.com/ryder_ripps">Ryder Ripps</a> recent NFT work has been centered
             around provocations and inquiries regarding the nature of NFT,
             provenance and digital ownership. Provenance has always been the
             definitive aspect in establishing an artwork’s meaning and value.
@@ -624,7 +624,7 @@ function App() {
             publisher/creator of a digital work.
             <br></br>
             <br></br>
-            Since December of 2021, RR have been investigating the most
+            Since December of 2021, <a href="https://twitter.com/ryder_ripps">Ryder Ripps</a> have been investigating the most
             prominent NFT project, Bored Ape Yacht Club and its creators, Yuga
             Labs. Through months of intensive research, RR and other community
             members have discovered extensive connections between BAYC and
@@ -633,7 +633,7 @@ function App() {
             contains sensitive content not suitable for children.
             <br></br>
             <br></br>
-            On Wednesday, May 13th 2022, Ryder Ripps began creating new work in
+            On Wednesday, May 13th 2022, <a href="https://twitter.com/ryder_ripps">Ryder Ripps</a> began creating new work in
             the form of NFTs, based on the BAYC images. Through the process of
             “re-minting”, the original BAYC images are recontextualized –
             illuminating truths about their origins and meanings as well as the
@@ -641,7 +641,7 @@ function App() {
             provenance and evade censorship.
             <br></br>
             <br></br>
-            On June 2022, NFT2626 began Minting Otherdeed for Otherside NFTS as Contemporary Conceptual Narrative Artwork. OtherDeed
+            On June 2022, <a href="https://twitter.com/NFT2626">NFT2626</a> began Minting Otherdeed for Otherside NFTS as Contemporary Conceptual Narrative Artwork. OtherDeed
             just like RR/BAYC uses satire and appropriation to protest and
             educate people regarding Otherdeed for Otherside and the framework
             of NFTs. The work is an extension of and in the spirit of other
@@ -651,13 +651,13 @@ function App() {
             OtherDeed uses the ERC721A standard, which saves significant gas
             fees for minting. you can mint multiple NFTs at about the same cost
             as minting a single NFT. Thanks to the Azuki team who leaders have
-            been exposed by the web3 pioneer @Pauly0x.
+            been exposed by the web3 pioneer <a href="https://twitter.com/Pauly0x">Pauly</a>.
             <br></br>
             <br></br>
-				    June 2 2022 Otherdeed 26 is de-listed from Opensea
+				    June 2 2022 <a href="https://twitter.com/otherdeed26">Otherdeed</a> 26 is de-listed from Opensea
             <br></br>
             <br></br>
-            NFT2626
+            <a href="https://twitter.com/NFT2626">NFT2626</a>
           </s.TextP>
           <br></br>
             <br></br>
