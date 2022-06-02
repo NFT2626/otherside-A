@@ -183,7 +183,7 @@ function Second() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit <a href="https://looksrare.org/collections/0x37Bea773D6b03BB03Fe967EaEbe2a0Bf42D3fA1C">Looksrare.org</a to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Looksrare.org to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
