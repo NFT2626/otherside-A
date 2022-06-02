@@ -650,6 +650,9 @@ function App() {
             been exposed by the web3 pioneer @Pauly0x.
             <br></br>
             <br></br>
+				    June 2 2022 Otherdeed 26 is de-listed from Opensea
+            <br></br>
+            <br></br>
             NFT2626
           </s.TextP>
           <br></br>
@@ -707,7 +710,8 @@ function App() {
             <Panel header="What the future of this project?">
               <s.TextP style={{ textAlign: "left" }}>
                 There is no Rodmap its an Artistic Performance to denounce
-                Racism and Antisemitism hiding behind NFTs Collections
+                Racism and Antisemitism hiding behind NFTs Collections.
+                NFT2626 planned to release a Metaverse for the Otherdeed 26 Plots.
               </s.TextP>
             </Panel>
             <Panel header="Who runs the Otherdeed ?">
