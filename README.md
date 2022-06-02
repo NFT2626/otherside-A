@@ -88,7 +88,7 @@ to change Carousel Images for SneakPeak Replace images in `public/config/images`
   "GAS_LIMIT": 145000, 
   "MAX_PER_TX": 10,  
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "MARKETPLACE_LINK": "https://Looksrare.org/collection/",
   "Telegram": "https://",
   "Discord": "https://",
   "Twitter": "https://",

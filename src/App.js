@@ -324,7 +324,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit <a href="https://looksrare.org/collections/0x37Bea773D6b03BB03Fe967EaEbe2a0Bf42D3fA1C">Looksrare.org</a> to view it.`
         );
         toaster.push(txmessage, { placement })
         setbrd("2px solid green");
@@ -404,7 +404,7 @@ function App() {
                 <s.Icons src="/config/images/twitter.svg" alt="twitter" />
               </a>
               <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-                <s.Icons src="/config/images/opensea.svg" alt="opensea" />
+                <s.Icons src="/config/images/looksrare.svg" alt="looksrare" />
               </a>
             </s.socialDiv>
             <WalletBox>
@@ -726,7 +726,7 @@ function App() {
               <s.Icons src="/config/images/twitter.svg" alt="twitter" />
             </a>
             <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-              <s.Icons src="/config/images/opensea.svg" alt="opensea" />
+              <s.Icons src="/config/images/looksrare.svg" alt="looksrare" />
             </a>
           </s.socialDiv>
           <s.SpacerLarge />
